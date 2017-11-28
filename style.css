@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #39B8EA;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Pacifico;
+  font-weight: 100;
+  font-size: 20px;
+}
+p {
+  font: 16px 'Helvetica', sans-serif;
+  width: 310px;
+  text-align: center;
+}
+
+/* PORTRAIT MODE TO DESKTOP */
+@media (min-width: 300px) {
+
+  body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+/* DESKTOP AND ABOVE */
+@media (min-width: 769px) {
+  body {
+
+  }
+}
